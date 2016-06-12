@@ -8,6 +8,7 @@ defmodule SlowQueryFinder.Mixfile do
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      preferred_cli_env: [espec: :test],
+     escript: [main_module: SlowQueryFinder],
      deps: deps]
   end
 
