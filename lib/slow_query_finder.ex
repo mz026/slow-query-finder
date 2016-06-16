@@ -1,7 +1,8 @@
 require Matcher
 
 defmodule SlowQueryFinder do
-  def main(args) do
-    IO.inspect args
+  def main([file | _]) do
+    IO.inspect file
+    IO.inspect Matcher.process(file)
   end
 end

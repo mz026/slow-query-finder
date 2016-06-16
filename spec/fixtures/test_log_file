@@ -1,0 +1,16 @@
+other line 1
+other line 2
+with process number:[5566]:LOG: select * from fast_table
+with process number:[5566]:LOG: select * from slow_table
+with process number:[5567]:LOG: select * from fast_table
+with process number:[5568]:LOG: select * from fast_table
+with slow indicator:[5566]:LOG: duration: 1000.00ms
+with process number:[5567]:LOG: select * from fast_table
+with process number:[5568]:LOG: select * from fast_table
+with process number:[5568]:LOG: select * from slow_table
+with process number:[5567]:LOG: select * from fast_table
+with process number:[9527]:LOG: select * from fast_table
+with slow indicator:[5568]:LOG: duration: 1500.00ms
+with process number:[5566]:LOG: select * from fast_table
+other line 1
+other line 2
